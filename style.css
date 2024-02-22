@@ -1,0 +1,29 @@
+html {
+  max-width: 70ch;
+  padding: 1.5rem;
+  margin: auto;
+
+  border: 2px lightgray solid;
+  border-radius: 0.25rem;
+}
+
+body {
+  background-color: #dddddd;
+  color: #222;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* TODO a:link, a:visited, a:focus, a:hover, a:active */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    /* simple algorithmic dark mode */
+    background-color: #222;
+    filter: invert(93%) hue-rotate(180deg);
+  }
+}
