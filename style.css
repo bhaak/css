@@ -22,6 +22,13 @@ img, video {
   max-height: 70vh;
 }
 
+kbd,
+code {
+  border-radius: 6px;
+  background-color: #aaaaaa;
+  padding: 0.2rem 0.3rem;
+}
+
 /* TODO a:link, a:visited, a:focus, a:hover, a:active */
 
 @media (prefers-color-scheme: dark) {
@@ -33,5 +40,9 @@ img, video {
 
   img, video {
     filter: invert(100%) hue-rotate(180deg);
+  }
+
+  code {
+    background-color: #bbbbbb;
   }
 }
