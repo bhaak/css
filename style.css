@@ -36,6 +36,28 @@ blockquote {
   margin: 1rem 2rem 1rem 2rem;
 }
 
+/* table styling */
+table {
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+td, th {
+  padding: 6px;
+  text-align: left;
+}
+
+thead tr {
+  background-color: #bbbbbb;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #cccccc;
+}
+
+/* table styling end */
+
 /* TODO a:link, a:visited, a:focus, a:hover, a:active */
 
 @media (prefers-color-scheme: dark) {
@@ -55,5 +77,9 @@ blockquote {
 
   blockquote {
     background-color: #ffffff;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #dddddd;
   }
 }
