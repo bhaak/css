@@ -29,6 +29,13 @@ code {
   padding: 0.2rem 0.3rem;
 }
 
+blockquote {
+  background-color: #eeeeee;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem 2rem 1rem 2rem;
+}
+
 /* TODO a:link, a:visited, a:focus, a:hover, a:active */
 
 @media (prefers-color-scheme: dark) {
@@ -44,5 +51,9 @@ code {
 
   code {
     background-color: #bbbbbb;
+  }
+
+  blockquote {
+    background-color: #ffffff;
   }
 }
